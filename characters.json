@@ -1,10 +1,32 @@
-[{"id":"1","name":"Микки Маус","photoUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Mickey_Mouse_%28poster_version%29.svg/440px-Mickey_Mouse_%28poster_version%29.svg.png"},
-{"id":"2","name":"Минни Маус","photoUrl":"https://upload.wikimedia.org/wikipedia/en/0/0f/Minnie_Mouse_Duckipedia.png"},
-{"id":"3","name":"Дональд Дак","photoUrl":"https://upload.wikimedia.org/wikipedia/ru/5/5d/%D0%94%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%B4_%D0%94%D0%B0%D0%BA.pngg"},
-{"id":"4","name":"Дейзи Дак","photoUrl":"https://upload.wikimedia.org/wikipedia/ru/2/21/DaisyDuck.png"},
-{"id":"5","name":"Гуфи","photoUrl":"https://upload.wikimedia.org/wikipedia/ru/thumb/7/7c/Goofy2013.jpg/548px-Goofy2013.jpg"},
-{"id":"6","name":"Плуто","photoUrl":"https://upload.wikimedia.org/wikipedia/ru/c/c1/%D0%9F%D0%B5%D1%81_%D0%9F%D0%BB%D1%83%D1%82%D0%BE.jpg"},
-{"id":"7","name":"Золушка","photoUrl":"https://upload.wikimedia.org/wikipedia/ru/thumb/f/f5/Cinderella_disney_princess.jpg/540px-Cinderella_disney_princess.jpg"},
-{"id":"8","name":"Ариэль","photoUrl":"https://upload.wikimedia.org/wikipedia/ru/thumb/b/bd/Ariel_friend.jpg/548px-Ariel_friend.jpg"},
-{"id":"9","name":"Белль","photoUrl":"https://upload.wikimedia.org/wikipedia/ru/thumb/a/af/Belle_disney_princess.jpg/548px-Belle_disney_princess.jpg"},
-{"id":"10","name":"Симба","photoUrl":"https://upload.wikimedia.org/wikipedia/ru/thumb/9/98/%D0%92%D0%B7%D1%80%D0%BE%D1%81%D0%BB%D1%8B%D0%B9_%D0%A1%D0%B8%D0%BC%D0%B1%D0%B0.png/548px-%D0%92%D0%B7%D1%80%D0%BE%D1%81%D0%BB%D1%8B%D0%B9_%D0%A1%D0%B8%D0%BC%D0%B1%D0%B0.png"}]
+{
+  "characters": [
+    {
+      "name": "Диппер Пайнс",
+      "description": "Главный герой сериала Гравити Фолз. 12-летний мальчик, приехавший на лето к своему дяде Стэну в Гравити Фолз. Любознательный и умный, всегда ищет тайны и загадки.",
+      "imageUrl": "https://example.com/images/dipper.jpg",
+      "friends": ["Мэйбл Пайнс", "Стэнли Пайнс", "Стэнфорд Пайнс", "Сус Рамирез"],
+      "enemies": ["Билл Шифр", "Гидеон Глифул", "Восьмёрка", "Шейп Шифтер", "Вероятник"]
+    },
+    {
+      "name": "Мэйбл Пайнс",
+      "description": "Жизнерадостная, энергичная, полна энтузиазма и свободно-настроена 12-летняя девочка (в конце сериала ей исполняется 13 лет), проводящая лето с дядей Стэном в Гравити Фолз.",
+      "imageUrl": "https://example.com/images/mabel.jpg",
+      "friends": ["Диппер Пайнс", "Стэнли Пайнс", "Стэнфорд Пайнс", "Сус Рамирез"],
+      "enemies": ["Билл Шифр", "Гидеон Глифул", "Восьмёрка", "Шейп Шифтер", "Вероятник"]
+    },
+    {
+      "name": "Стэнли Пайнс",
+      "description": "Двоюродный дедушка Диппера и Мэйбл Пайнс, постоянный житель городка Гравити Фолз. После многих лет мошенничества и преступлений он поселился в отдалённом городке Гравити Фолз, штат Орегон, где руководит ловушкой для туристов, Хижиной Чудес.",
+      "imageUrl": "https://example.com/images/stanley.jpg",
+      "friends": ["Диппер Пайнс", "Мэйбл Пайнс", "Стэнфорд Пайнс", "Сус Рамирез"],
+      "enemies": ["Билл Шифр", "Гидеон Глифул", "Восьмёрка", "Шейп Шифтер", "Вероятник"]
+    },
+    {
+      "name": "Билл Шифр",
+      "description": "Магическое создание, могущественный демон, способный войти в подсознание человека, а также главный антагонист сериала. Билл известен своим таинственным поведением и садистским юмором.",
+      "imageUrl": "https://example.com/images/bill.jpg",
+      "friends": ["Гидеон Глифул", "Восьмёрка", "Шейп Шифтер", "Вероятник"],
+      "enemies": ["Диппер Пайнс", "Мэйбл Пайнс", "Стэнли Пайнс", "Стэнфорд Пайнс", "Сус Рамирез"]
+    }
+  ]
+}
